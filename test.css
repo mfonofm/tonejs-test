@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#editor {
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+#go {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #FF69B4;
+    background-color: #FF69B4;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20pt;
+    font-family: monospace;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#go:hover{
+    background-color: #69ffb4;
+}
+
+#stop {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #E6402C;
+    background-color: #E6402C;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20pt;
+    font-family: monospace;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#stop:hover {
+    background-color: #2cd2e6;
+}
